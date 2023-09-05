@@ -1,0 +1,97 @@
+.game-btns-container {
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  .game-btn {
+    border-radius: 50px;
+    background: #fff;
+  
+    color: #0b0223;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 20px 10px 10px;
+  }
+  
+  .game-btn:hover {
+    color: #f451a5;
+    border: 2px outset #f451a5;
+  }
+  
+  .game-btn > img {
+    width: 15%;
+    flex-shrink: 0;
+    border-radius: 50px;
+  }
+  
+  /* --**-- responsive header Styles for mobile device --**-- */
+  
+  @media screen and (max-width: 576px) {
+    .game-btns-container {
+      margin: 50px auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .game-btn {
+      border-radius: 50px;
+      background: #fff;
+  
+      color: #0b0223;
+      font-size: 12px;
+      font-weight: 600;
+      border: 0;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 0px 5px 5px;
+    }
+    .extra-class {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .game-btn > img {
+      width: 15%;
+      flex-shrink: 0;
+      border-radius: 50px;
+    }
+  }
+  
+  /*responsive header Styles for Tablet device */
+  
+  @media screen and (min-width: 577px) and (max-width: 992px) {
+    .game-btns-container {
+      margin: 50px auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .game-btn {
+      border-radius: 50px;
+      background: #fff;
+  
+      color: #0b0223;
+      font-size: 12px;
+      font-weight: 600;
+      border: 0;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 0px 5px 5px;
+    }
+  }
+  

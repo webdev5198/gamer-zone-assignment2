@@ -1,0 +1,155 @@
+.career-container {
+    background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+    background-repeat: no-repeat;
+  }
+  
+  .career-inner {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .career-inner > img {
+    width: 50%;
+  }
+  
+  .career-text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    gap: 24px;
+  }
+  .career-title {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .career-info {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: left;
+  }
+  
+  .career-ul-class {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  .career-ul-1 {
+    list-style: none;
+    color: #fff;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 0;
+  }
+  .career-ul-2 {
+    list-style: none;
+    color: #fff;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .career-ul-class li {
+    margin-bottom: 6px;
+  }
+  
+  .career-btn {
+    width: fit-content;
+    padding: 15px 30px;
+    gap: 10px;
+    border: 0;
+    border-radius: 48px;
+    background: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ff42a5;
+  }
+  
+  /*responsive header Styles for mobile device*/
+  
+  @media screen and (max-width: 576px) {
+    .career-inner {
+      flex-direction: column;
+      padding-top: 45px;
+      width: 90%;
+    }
+    .career-inner > img {
+      width: 100%;
+    }
+  
+    .career-title {
+      font-size: 2.5rem;
+    }
+  
+    .career-info {
+      font-size: 0.6rem;
+      margin-bottom: 10px;
+    }
+  
+    .career-ul-class {
+      justify-content: space-between;
+    }
+  
+    .career-ul-1,
+    .career-ul-2 {
+      font-size: 0.6rem;
+    }
+  
+    .career-ul-class li {
+      margin-bottom: 8px;
+    }
+    .career-btn {
+      padding: 10px 20px;
+      font-size: 0.5rem;
+    }
+  }
+  
+  /* responsive header Styles for Tablet device*/
+  
+  @media screen and (min-width: 577px) and (max-width: 992px) {
+    .career-inner {
+      flex-direction: column;
+      padding-top: 45px;
+    }
+    .career-inner > img {
+      width: 100%;
+    }
+  
+    .career-title {
+      font-size: 3rem;
+    }
+  
+    .career-info {
+      font-size: 0.8rem;
+      margin-bottom: 10px;
+    }
+  
+    .career-ul-class {
+      justify-content: space-between;
+    }
+  
+    .career-ul-1,
+    .career-ul-2 {
+      font-size: 1rem;
+    }
+  
+    .career-ul-class li {
+      margin-bottom: 8px;
+    }
+    .career-btn {
+      margin-top: 5px;
+      padding: 10px 20px;
+      font-size: 0.8rem;
+    }
+  }
+  

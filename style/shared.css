@@ -1,0 +1,21 @@
+ * {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-family: "Nunito", sans-serif;
+    font-family: "Work Sans", sans-serif;
+  }
+  
+  /* .hide{
+    display:none;
+   } */
+  
+  .we-are-title,
+  .goat-class,
+  .play-title > span,
+  .online-games-title > span {
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  

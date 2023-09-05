@@ -1,0 +1,119 @@
+.play-instant-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 200px;
+    margin-bottom: 120px;
+  }
+  .play-title {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  .play-info {
+    color: #534c64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .play-img-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  .play-img-big {
+    width: 72%;
+  }
+  .play-img-small {
+    margin-top: -170px;
+    width: 32%;
+    position: sticky;
+    margin-left: -100px;
+  }
+  
+ 
+  
+  
+  /*  responsive header Styles for mobile device*/
+  
+  @media screen and (max-width: 576px) {
+    .play-instant-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .play-img-area {
+      flex-direction: column;
+      margin: 0 auto;
+      width: 90%;
+      justify-content: center;
+    }
+    .play-img-big {
+      width: 75%;
+      margin-left: 50px;
+    }
+    .play-img-small {
+      margin-top: -100px;
+      width: 30%;
+      position: sticky;
+      margin-left: 20px;
+    }
+  
+    .play-title {
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 30px;
+    }
+    .play-info {
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 50px;
+    }
+  }
+  /* responsive header Styles for Tablet device*/
+  
+  @media screen and (min-width: 577px) and (max-width: 992px) {
+    .play-instant-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .play-img-area {
+      flex-direction: column;
+      margin: 0 auto;
+      width: 90%;
+      justify-content: center;
+    }
+    .play-img-big {
+      width: 80%;
+      margin-left: 90px;
+    }
+    .play-img-small {
+      margin-top: -150px;
+      width: 30%;
+      position: sticky;
+      margin-left: -10px;
+    }
+  
+    .play-title {
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 30px;
+    }
+    .play-info {
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 50px;
+    }
+  }
+ 
+  
